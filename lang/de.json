@@ -1,0 +1,10 @@
+{
+	"m_title":"SoftliqHTTP",
+	"m_descr":"App zur Abfrage des letzten Wasserverbrauchs des Softliq SC18 Wasserenthärters" per HTTP POST Request",
+	"l_getter":"IP des Gerät"es,
+	"p_getter":"192.168.1.33",
+	"l_getterPollInterval":"Abfrageintervall in Sekunden",
+	"h_getterPollInterval":"Bei keiner Eingabe oder 0 wird kein Abfrageintervall instanziiert (Explizite update Kommandos funktionieren auch weiterhin)",
+	"rl_skipEventIfSameValue": "Kein Updateevent wenn sich der Wert nicht geändert hat",
+	"h_skipEventIfSameValue": "Wenn der selbe Wert ausgelesen wurde, wird kein Updateevent gesendet. In diesem Fall werden keine Listener aufgerufen."
+}

@@ -1,0 +1,10 @@
+{
+	"m_title":"SoftliqHTTP Device",
+        "m_descr":"App to get the last water usage value of the Softliq SC18 water softener via HTTP POST request",
+	"l_getter":"IP of device",
+	"p_getter":"192.168.1.33",
+        "l_getterPollInterval":"Interval in seconds between polling requests",
+        "h_getterPollInterval":"Empty or 0 to disable periodical requests (explicit update command will still initiate request process)",
+	"rl_skipEventIfSameValue": "Don't send update event if value has not changed",
+	"h_skipEventIfSameValue": "If same value is reported, do not send update event. In this case no update listeners will be called."
+}

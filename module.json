@@ -1,0 +1,55 @@
+{
+	"singleton": false,
+	"dependencies": [],
+	"category": "developers_stuff",
+	"author": "Jens Poxleitner",
+	"icon": "icon.png",
+    "moduleName": "SoftliqHTTP",
+	"version": "0.0.1",
+	"maturity": "beta",
+	"repository": {
+		"type": "git",
+		"source": "https://github.com/aLiEnHeAd13/SoftliqHTTP"
+	},
+	"defaults": {
+		"title": "__m_title__",
+		"description": "__m_descr__",
+		"getter_sensorMultilevel": "",
+		"getterPollInterval_sensorMultilevel": 0,
+		"skipEventIfSameValue": false
+	},
+	"schema": {
+		"type": "object",
+		"properties": {
+			"getter_sensorMultilevel": {
+				"type": "string",
+				"required": true
+			},
+			"getterPollInterval_sensorMultilevel": {
+				"type": "integer",
+				"required": false
+			},
+			"skipEventIfSameValue": {
+				"type": "boolean",
+				"required": true
+			}
+		}
+	},
+	"options": {
+		"fields": {
+			"getter_sensorMultilevel": {
+				"label": "__l_getter__",
+				"placeholder": "__p_getter__"
+			},
+			"getterPollInterval_sensorMultilevel": {
+				"label": "__l_getterPollInterval__",
+				"helper": "__h_getterPollInterval__"
+			},
+			"skipEventIfSameValue": {
+				"type": "checkbox",
+				"rightLabel": "__rl_skipEventIfSameValue__",
+				"helper": "__h_skipEventIfSameValue__"
+			}
+		}
+	}
+}
